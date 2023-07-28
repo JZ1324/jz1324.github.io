@@ -2,10 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=https://www.youtube.com/watch?v=dQw4w9WgXcQ/" />
+    <meta http-equiv="refresh" content="1;url=https://www.youtube.com/watch?v=dQw4w9WgXcQ/" />
   </head>
   <body>
-	<script>window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ/"</script>
+    <script>
+      function redirect () {
+        window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ/';
+      }
+      setTimeout(() => {
+        redirect();
+      }, 500);
+    </script>
+    <!-- Anonymous page visit counter -->
+    <img src="https://app.piratepx.com/ship?p=84b39adb-c860-4fb2-b1e3-9e337d5915d8" onload="redirect()" />
   </body>
 </html>
