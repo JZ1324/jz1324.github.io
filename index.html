@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="1;url=https://www.youtube.com/watch?v=mx86-rTclzA/" />
-  </head>
-  <body>
-    <script>
-      function redirect () {
-        window.location.href = 'https://jz1324.github.io/noice/';
-      }
-      setTimeout(() => {
-        redirect();
-      }, 500);
-    </script>
- <img src="https://app.piratepx.com/ship?p=9da1cdd7-7675-4bf9-a03a-46c5c6df5dc5" onload="redirect()" />
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rickroll</title>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: black;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+
+        video {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<video autoplay loop playsinline controls>
+    <source src="https://cdn.jsdelivr.net/gh/jz1324/rickroll@master/rickroll.mp4" type="video/mp4">
+</video>
+
+</body>
 </html>
